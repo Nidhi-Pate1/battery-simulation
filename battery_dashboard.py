@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from streamlit_autorefresh import st_autorefresh
 
 # Page config
-st.set_page_config(page_title="Stunning Battery Dashboard", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title=" Battery Dashboard", layout="wide", initial_sidebar_state="expanded")
 
 # CSS styling for visuals
 st.markdown("""
@@ -200,3 +200,4 @@ st.markdown("""
 <hr>
 <p style="text-align:center; color:#999;">🚀 Made with ❤️ in Streamlit · 2025</p>
 """, unsafe_allow_html=True)
+
