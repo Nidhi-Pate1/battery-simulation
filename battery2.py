@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from io import StringIO
 import datetime
-from streamlit_extras.add_vertical_space import add_vertical_space
+
 
 # ------------------ Streamlit UI Config ------------------
 st.set_page_config(page_title="🔋 Battery Simulator", layout="wide")
@@ -140,3 +140,4 @@ elif nav_option == "Simulation":
 
         csv = df.to_csv(index=False).encode('utf-8')
         st.download_button("📥 Download Results", data=csv, file_name="simulation_results.csv", mime="text/csv")
+
